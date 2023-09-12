@@ -86,7 +86,7 @@
     "webpack-merge": "5.4.0"
   },
   "devDependencies": {
-    "@edx/browserslist-config": "1.0.0",
+    "@edx/browserslist-config": "1.0.0", 
     "@edx/frontend-build": "^12.9.0-alpha.1",
     "@faker-js/faker": "^7.6.0",
     "@testing-library/dom": "9.3.1",
