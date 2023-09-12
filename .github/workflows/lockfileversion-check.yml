@@ -7,7 +7,10 @@
 name: lockfile check
 
 on:
-  - workflow_call
+  - push:
+branches:
+- 'master'
+pull_request:
 
 jobs:
   version-check:
