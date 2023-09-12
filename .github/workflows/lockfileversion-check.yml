@@ -7,11 +7,10 @@
 name: lockfile check
 
 on:
-  - push:
-branches:
-- 'master'
-pull_request:
-
+  push:
+    branches:
+    - master
+  pull_request:
 jobs:
   version-check:
     runs-on: ubuntu-20.04
